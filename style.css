@@ -1,1 +1,19 @@
+/* This is a COMMENT */
 
+/* Select element by TYPE */
+p{
+    color:rgb(49, 107, 145);
+}
+h1 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+/* Select element by ID name */
+#intro {
+    background-color: #c4ff02;
+}
+
+/* Select element by CLASS name */
+.border {
+    border : 2px solid black
+}
