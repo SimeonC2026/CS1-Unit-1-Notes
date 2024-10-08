@@ -1,11 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 /* This is a COMMENT */
 
 /* Select element by TYPE */
+body {
+    font-family: "Arsenal SC", sans-serif;
+    background-color: rgb(255, 255, 0)
+
+}
+
 p{
     color:rgb(49, 107, 145);
 }
 h1 {
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    font-family: "Playfair Display", serif;
 }
 
 /* Select element by ID name */
@@ -16,4 +24,13 @@ h1 {
 /* Select element by CLASS name */
 .border {
     border : 2px solid black
+}
+
+/* Properties: colors and typography */
+strong {
+    color:aquamarine;
+    background-color: rgb(255, 218, 5);
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    font-weight: 100;
 }
