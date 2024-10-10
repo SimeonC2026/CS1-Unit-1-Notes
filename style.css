@@ -34,3 +34,18 @@ strong {
     font-style: italic;
     font-weight: 100;
 }
+
+/* Box Model: margin, border, padding, content */
+
+img {
+    border-width: 16px; 
+    border-style: double;
+    border-color: blue;
+    border-radius: 90px;
+    padding:7px;  
+}
+
+.centered {
+ margin:auto; 
+text-align:center;
+}
